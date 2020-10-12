@@ -1,0 +1,13 @@
+{
+  "name": "duckduckscrape",
+  "version": "1.0.0",
+  "description": "Scraper for duckduckgo",
+  "main": "es.js",
+  "repository": "https://github.com/dada513/duckduckscrape",
+  "author": "dada513",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "esm": "^3.2.25"
+  }
+}
