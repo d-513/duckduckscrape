@@ -14,6 +14,7 @@ import cheerio from "cheerio";
 
 /**
  * Searches duckduckgo for a query
+ * [!] Exported as duckduckscrape.search, not searchDDG!
  * @param {string} q - The search query
  * @returns {DDGSearchResults} - The search results
  */
