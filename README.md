@@ -21,3 +21,7 @@ async function main() {
 
 main();
 ```
+
+### API
+
+The JSDoc is available at https://dada513.github.io/duckduckscrape/
