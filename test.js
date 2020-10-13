@@ -1,8 +1,8 @@
-const dds = require("./es");
+const dds = require('./es')
 
-async function main() {
-  const res = await dds.search("Hello, world");
-  console.log(res);
+async function main () {
+  const res = await dds.search('Hello, world')
+  console.log(res)
 }
 
-main();
+main()
