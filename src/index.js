@@ -14,11 +14,11 @@ import cheerio from 'cheerio'
 
 /**
  * Searches duckduckgo for a query
- * [!] Exported as duckduckscrape.search, not searchDDG!
+ * @method
  * @param {string} q - The search query
  * @returns {DDGSearchResults} - The search results
  */
-async function searchDDG (q) {
+export const search = async (q) => {
   const res = await axios.get('https://html.duckduckgo.com/html', {
     params: {
       q
@@ -39,5 +39,3 @@ async function searchDDG (q) {
   })
   return results
 }
-
-export const search = searchDDG
