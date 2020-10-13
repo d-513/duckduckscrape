@@ -1,5 +1,5 @@
 {
-  "name": "duckduckscrape",
+  "name": "@dada513/duckduckscrape",
   "version": "1.0.0",
   "description": "Scraper for duckduckgo",
   "main": "es.js",
